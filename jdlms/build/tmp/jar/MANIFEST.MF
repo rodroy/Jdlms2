@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+Export-Package: org.openmuc.jdlms;uses:="javax.net,org.openmuc.jdlms.d
+ atatypes,org.openmuc.jdlms.interfaceclass.attribute,org.openmuc.jdlms
+ .interfaceclass.method",org.openmuc.jdlms.app,org.openmuc.jdlms.datat
+ ypes,org.openmuc.jdlms.interfaceclass,org.openmuc.jdlms.interfaceclas
+ s.attribute;uses:="org.openmuc.jdlms.interfaceclass",org.openmuc.jdlm
+ s.interfaceclass.method;uses:="org.openmuc.jdlms.interfaceclass"
+Private-Package: org.openmuc.jdlms.internal,org.openmuc.jdlms.internal
+ .asn1.axdr,org.openmuc.jdlms.internal.asn1.axdr.types,org.openmuc.jdl
+ ms.internal.asn1.cosem,org.openmuc.jdlms.internal.asn1.iso.acse,org.o
+ penmuc.jdlms.internal.security,org.openmuc.jdlms.internal.transportla
+ yer,org.openmuc.jdlms.internal.transportlayer.hdlc,org.openmuc.jdlms.
+ internal.transportlayer.hdlc.module,org.openmuc.jdlms.internal.transp
+ ortlayer.hdlc.serial,org.openmuc.jdlms.internal.transportlayer.tcp
+Bundle-Version: 0.11.3
+Tool: Bnd-2.4.0.201411031534
+Bundle-Name: jDLMS
+Bnd-LastModified: 1452539194286
+Created-By: 1.7.0_79 (Oracle Corporation)
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.openmuc.jdlms
+Import-Package: gnu.io,javax.net,javax.xml.bind,org.bouncycastle.crypt
+ o;version="[1.53,2)",org.bouncycastle.crypto.engines;version="[1.53,2
+ )",org.bouncycastle.crypto.macs;version="[1.53,2)",org.bouncycastle.c
+ rypto.modes;version="[1.53,2)",org.bouncycastle.crypto.modes.gcm;vers
+ ion="[1.53,2)",org.bouncycastle.crypto.params;version="[1.53,2)",org.
+ openmuc.jasn1.ber,org.openmuc.jasn1.ber.types,org.openmuc.jasn1.ber.t
+ ypes.string
+
